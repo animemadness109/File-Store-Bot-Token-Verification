@@ -14,7 +14,7 @@ from datetime import datetime
 
 from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
 
-pyrogram.utils.MIN_CHANNEL_ID = -1002168579371
+pyrogram.utils.MIN_CHANNEL_ID = -1002178860846
 
 class Bot(Client):
     def __init__(self):
