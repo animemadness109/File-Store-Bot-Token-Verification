@@ -1,6 +1,5 @@
 #(©)Codexbotz
 
-from pyrogram import version
 from bot import Bot
 from config import OWNER_ID
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
