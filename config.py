@@ -27,8 +27,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://publicearn.com/hentaiq")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "64bcff7d8e2f4f8b5a0ce621e4d90ca7f0cc4e0e")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com/hentaimadness")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "c71b8916a2db380472d570d21a34bf1a6bcb32a0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Hentai_Madness/13")
