@@ -5,24 +5,24 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6915130330:AAHS7EUDJNNLZVikTw-RJmWkLdhCIt4SqR8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN"7449837628:AAFM_3EX-CS16OfK6flazSXUIqmfgb2Ffd8")
 
-APP_ID = int(os.environ.get("APP_ID", "1615307"))
+APP_ID = int(os.environ.get("APP_ID", "28713982"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "183348a9c36fc9b87e9139a3bf4959ae")
+API_HASH = os.environ.get("API_HASH", "237e15f7c006b10b4fa7c46fee7a5377")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002178860846"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002110105242"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1077084067"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7195990500"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://jeevandan:jeevandan@cluster0.a6cdeay.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ravi:ravi12345@cluster0.hndinhj.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
