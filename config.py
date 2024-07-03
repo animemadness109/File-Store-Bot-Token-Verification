@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7449837628:AAFM_3EX-CS16OfK6flazSXUIqmfgb2Ffd8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6391738473:AAHQt1cEcQ2gTMedzKod0twgTgE6H8_bcqM")
 
 APP_ID = int(os.environ.get("APP_ID", "23058648"))
 
@@ -28,7 +28,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com/hentaima
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "c71b8916a2db380472d570d21a34bf1a6bcb32a0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 14400))  # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/Hentai_Madness/13")
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/Hentai_Madness/15")
 
 # Force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1002072680781"))
